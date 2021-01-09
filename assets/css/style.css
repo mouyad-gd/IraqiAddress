@@ -1,0 +1,269 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #d9dcd6;
+    height: 100%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.header {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #333c41;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #888b88;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    height: 800px;
+    margin: 20px 20px 20px 20px;
+    background-image: url("../images/homepage_hero.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0% 0% 0% 0%;
+}
+
+
+.container {
+    padding-top: 20px;
+    text-align: center;
+    
+  
+}
+
+
+.Address {
+    text-align: left;
+    color: white;
+    background-color: #888b88;
+    padding: 15px;
+}
+.Addressarabic {
+    text-align: right;
+    color: white;
+    background-color: #888b88;
+    padding: 15px;
+}
+
+.alignleft {
+    text-align: left;
+    font-size: 20px;
+}
+
+.alignRight {
+    text-align: right;
+    font-size: 20px;
+    padding-right: 250px;
+}
+
+
+
+.productimgs {
+    border-radius: 150px;
+}
+
+.productimgs:hover {
+filter: drop-shadow(5px 5px 5px #888b88);
+    border:solid;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.privacy {
+    width: 100%;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #333c41;;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+.paragraph {
+    font-size: 16px;
+    text-align: justify;
+    color: rgb(159, 160, 161);
+}
+
+.paragraph:hover {
+    color: whitesmoke;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #333c41;;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #333c41;;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.whybuy {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* changed the color to match other elements */
+    background-color: #6d6e6e;;
+}
+
+.whybuy-lead {
+    color: #ffffff;
+}
+
+.whybuy-lead h5 {
+    text-align: center;
+    color: black;
+}
+
+.whybuy-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.howchooseproducts {
+    color: #ffffff;
+}
+
+.howchooseproducts h5 {
+    text-align: center;
+    color: black;
+}
+
+.howchooseproducts img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.Feedback {
+    color: #faf8f8;
+}
+
+.Feedback h5 {
+    text-align: center;
+    color: black;
+}
+
+.Feedback img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer {
+  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    position:relative;
+    clear:both;
+    padding-top:20px;
+}
+
+.footertext {
+    font-size: 10px;
+}
