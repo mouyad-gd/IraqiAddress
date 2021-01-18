@@ -56,6 +56,8 @@ a {
 
 .hero {
     height: 800px;
+    max-width: 100%;
+    display:block;
     margin: 20px 20px 20px 20px;
     background-image: url("../images/homepage_hero.jpg");
     background-size: cover;
@@ -100,12 +102,16 @@ a {
 
 .productimgs {
     border-radius: 150px;
-}
+  
+  }
+
 
 .productimgs:hover {
 filter: drop-shadow(5px 5px 5px #888b88);
     border:solid;
-}
+  
+  }
+
 
 .content {
     width: 75%;
@@ -156,6 +162,23 @@ filter: drop-shadow(5px 5px 5px #888b88);
 .paragraph:hover {
     color: whitesmoke;
 }
+
+.Arabicparagraph {
+    font-size: 16px;
+    text-align: right;
+    color: rgb(159, 160, 161);
+}
+
+.Arabicparagraph:hover {
+    color: whitesmoke;
+}
+
+.underconstruction {
+    text-align: center;
+}
+
+
+
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -267,3 +290,4 @@ filter: drop-shadow(5px 5px 5px #888b88);
 .footertext {
     font-size: 10px;
 }
+
