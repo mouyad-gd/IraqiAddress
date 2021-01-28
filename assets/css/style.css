@@ -66,14 +66,12 @@ a {
 }
 
 
-
-
 .container {
     padding-top: 20px;
     text-align: center;
-    
-  
+     
 }
+
 
 
 .Address {
@@ -152,6 +150,11 @@ filter: drop-shadow(5px 5px 5px #888b88);
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+.col-lg-6 {
+    font-size: 1vw;
+    padding-top: 30px;
 }
 
 
